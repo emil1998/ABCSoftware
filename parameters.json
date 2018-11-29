@@ -1,0 +1,591 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "sites_URApiProxyService_name": {
+            "value": null
+        },
+        "serverfarms_URApiServicePlan_name": {
+            "value": null
+        },
+        "components_URApiProxyService_name": {
+            "value": null
+        },
+        "config_web_name": {
+            "value": null
+        },
+        "service_URAPIProxyServiceManagement_name": {
+            "value": null
+        },
+        "alertrules_Failure_Anomalies___URApiProxyService_name": {
+            "value": null
+        },
+        "apis_echo_api_name": {
+            "value": null
+        },
+        "groups_guests_name": {
+            "value": null
+        },
+        "apis_ur_das_ws_name": {
+            "value": null
+        },
+        "policies_policy_name": {
+            "value": null
+        },
+        "groups_developers_name": {
+            "value": null
+        },
+        "notifications_BCC_name": {
+            "value": null
+        },
+        "apis_massmediumsync_name": {
+            "value": null
+        },
+        "apis_legalentitysync_name": {
+            "value": null
+        },
+        "apis_annualreportsync_name": {
+            "value": null
+        },
+        "groups_administrators_name": {
+            "value": null
+        },
+        "apis_massmedialistsync_name": {
+            "value": null
+        },
+        "properties_Enablecache_name": {
+            "value": null
+        },
+        "apis_insolvencylistsync_name": {
+            "value": null
+        },
+        "apis_publicdocumentsync_name": {
+            "value": null
+        },
+        "apis_legalentitylistsync_name": {
+            "value": null
+        },
+        "tags_document_controller_name": {
+            "value": null
+        },
+        "apis_annualreportlistsync_name": {
+            "value": null
+        },
+        "apis_commercialpledgesync_name": {
+            "value": null
+        },
+        "properties_URAuthPassword_name": {
+            "value": null
+        },
+        "properties_URAuthUsername_name": {
+            "value": null
+        },
+        "users_1_name": {
+            "value": null
+        },
+        "apis_publicdocumentlistsync_name": {
+            "value": null
+        },
+        "apis_restricteddocumentsync_name": {
+            "value": null
+        },
+        "tags_legal_entity_controller_name": {
+            "value": null
+        },
+        "apis_commercialpledgelistsync_name": {
+            "value": null
+        },
+        "apis_insolvencyproceedingsync_name": {
+            "value": null
+        },
+        "apis_representationstatussync_name": {
+            "value": null
+        },
+        "properties_OAuth2ClientSecret_name": {
+            "value": null
+        },
+        "users_1_name_1": {
+            "value": null
+        },
+        "properties_OAuth2TokenEndpoint_name": {
+            "value": null
+        },
+        "policies_policy_name_1": {
+            "value": null
+        },
+        "hostNameBindings_urapiproxyservice.azurewebsites.net_name": {
+            "value": null
+        },
+        "apis_insolvencypractitionersync_name": {
+            "value": null
+        },
+        "apis_restricteddocumentlistsync_name": {
+            "value": null
+        },
+        "apis_spousalpropertyrelationsync_name": {
+            "value": null
+        },
+        "templates_AccountClosedDeveloper_name": {
+            "value": null
+        },
+        "apis_naturalpersoninformationsync_name": {
+            "value": null
+        },
+        "apis_publicprivatepartnershipsync_name": {
+            "value": null
+        },
+        "properties_OAuth2ClientCredentials_name": {
+            "value": null
+        },
+        "apis_insolvencypractitionerlistsync_name": {
+            "value": null
+        },
+        "apis_legalentitiesrepresentedbysync_name": {
+            "value": null
+        },
+        "tags_legalentitysync_name": {
+            "value": null
+        },
+        "apis_spousalpropertyrelationlistsync_name": {
+            "value": null
+        },
+        "notifications_AccountClosedPublisher_name": {
+            "value": null
+        },
+        "templates_EmailChangeIdentityDefault_name": {
+            "value": null
+        },
+        "apis_publicprivatepartnershiplistsync_name": {
+            "value": null
+        },
+        "templates_NewIssueNotificationMessage_name": {
+            "value": null
+        },
+        "subscriptions_5b7528ce5b68640088070002_name": {
+            "value": null
+        },
+        "subscriptions_5bfbcb4b02869212e4094d69_name": {
+            "value": null
+        },
+        "templates_ConfirmSignUpIdentityDefault_name": {
+            "value": null
+        },
+        "templates_PasswordResetIdentityDefault_name": {
+            "value": null
+        },
+        "templates_InviteUserNotificationMessage_name": {
+            "value": null
+        },
+        "templates_NewCommentNotificationMessage_name": {
+            "value": null
+        },
+        "operations_create_resource_name": {
+            "value": null
+        },
+        "operations_modify_resource_name": {
+            "value": null
+        },
+        "operations_remove_resource_name": {
+            "value": null
+        },
+        "tags_legal_entity_for_reusers_controller_name": {
+            "value": null
+        },
+        "templates_NewDeveloperNotificationMessage_name": {
+            "value": null
+        },
+        "api_version_sets_5b7571d0a393944b265efee7_name": {
+            "value": null
+        },
+        "api_version_sets_5b7570fb1454441a45860e9d_name": {
+            "value": null
+        },
+        "api_version_sets_5b767705f2545d4741d48fe7_name": {
+            "value": null
+        },
+        "api_version_sets_5b76777c998a4f8ed7b153fb_name": {
+            "value": null
+        },
+        "api_version_sets_5b76766233bfcea0a44e5f40_name": {
+            "value": null
+        },
+        "api_version_sets_5b76780a85ab31ad4db6b698_name": {
+            "value": null
+        },
+        "api_version_sets_5b7678aaa34720e1408f0b97_name": {
+            "value": null
+        },
+        "api_version_sets_5b7679332c1aba8cf8ae942f_name": {
+            "value": null
+        },
+        "api_version_sets_5b767ba1fdcacabc7983e687_name": {
+            "value": null
+        },
+        "api_version_sets_5b756bec1be273e2a0075130_name": {
+            "value": null
+        },
+        "api_version_sets_5b753ba68232a23008a1a184_name": {
+            "value": null
+        },
+        "api_version_sets_5b7670ce4ecdb978af926010_name": {
+            "value": null
+        },
+        "api_version_sets_5b7679d43a12b838b3c3f1c9_name": {
+            "value": null
+        },
+        "api_version_sets_5b767afe7fc149ab64b55f48_name": {
+            "value": null
+        },
+        "api_version_sets_5b766e1b5bf77e495004227d_name": {
+            "value": null
+        },
+        "api_version_sets_5b766facd7f8c0efca7d3c7d_name": {
+            "value": null
+        },
+        "api_version_sets_5b767d26286af58639fc2833_name": {
+            "value": null
+        },
+        "api_version_sets_5b767ca91a5e83e602a323bf_name": {
+            "value": null
+        },
+        "api_version_sets_5b767c2e6699adcf9799a8e8_name": {
+            "value": null
+        },
+        "api_version_sets_5b766f1ec038670454fd59b9_name": {
+            "value": null
+        },
+        "api_version_sets_5b76703c6ba44a85a626eec1_name": {
+            "value": null
+        },
+        "api_version_sets_5b767ff0f543c1944429f845_name": {
+            "value": null
+        },
+        "api_version_sets_5b767f693d6feea8c908a51a_name": {
+            "value": null
+        },
+        "api_version_sets_5b753d8ee27f64fa61bd0d34_name": {
+            "value": null
+        },
+        "operations_get_mass_medium_name": {
+            "value": null
+        },
+        "operations_retrieve_resource_name": {
+            "value": null
+        },
+        "templates_RejectDeveloperNotificationMessage_name": {
+            "value": null
+        },
+        "templates_RequestDeveloperNotificationMessage_name": {
+            "value": null
+        },
+        "operations_retrieve_header_only_name": {
+            "value": null
+        },
+        "templates_PurchaseDeveloperNotificationMessage_name": {
+            "value": null
+        },
+        "notifications_NewApplicationNotificationMessage_name": {
+            "value": null
+        },
+        "operations_get_commercial_pledge_name": {
+            "value": null
+        },
+        "schemas_5b756afc02869213c029adbb_name": {
+            "value": null
+        },
+        "templates_ApplicationApprovedNotificationMessage_name": {
+            "value": null
+        },
+        "operations_get_list_of_mass_media_name": {
+            "value": null
+        },
+        "notifications_RequestPublisherNotificationMessage_name": {
+            "value": null
+        },
+        "templates_PasswordResetByAdminNotificationMessage_name": {
+            "value": null
+        },
+        "operations_retrieve_resource_cached_name": {
+            "value": null
+        },
+        "notifications_PurchasePublisherNotificationMessage_name": {
+            "value": null
+        },
+        "notifications_NewIssuePublisherNotificationMessage_name": {
+            "value": null
+        },
+        "operations_defaultmethodsync_name": {
+            "value": null
+        },
+        "operations_get_list_of_insolvencies_name": {
+            "value": null
+        },
+        "operations_getannualreportsusingget_name": {
+            "value": null
+        },
+        "tags_commercialpledgesync_name": {
+            "value": null
+        },
+        "operations_defaultmethodsync_name_1": {
+            "value": null
+        },
+        "operations_get_list_of_legal_entities_name": {
+            "value": null
+        },
+        "operations_getpublicdocumentsusingget_name": {
+            "value": null
+        },
+        "operations_get_insolvency_practitioner_name": {
+            "value": null
+        },
+        "operations_defaultmethodsync_name_2": {
+            "value": null
+        },
+        "operations_defaultmethodsync_name_3": {
+            "value": null
+        },
+        "operations_getlventitydocumentsusingget_name": {
+            "value": null
+        },
+        "tags_restricteddocumentsync_name": {
+            "value": null
+        },
+        "policies_policy_name_2": {
+            "value": null
+        },
+        "operations_defaultmethodsync_name_4": {
+            "value": null
+        },
+        "operations_getentityannualreportsusingget_name": {
+            "value": null
+        },
+        "operations_getannualreportcontentusingget_name": {
+            "value": null
+        },
+        "operations_get_list_of_commercial_pledges_name": {
+            "value": null
+        },
+        "operations_getrestricteddocumentsusingget_name": {
+            "value": null
+        },
+        "operations_get_natural_person_information_name": {
+            "value": null
+        },
+        "operations_get_all_legal_entity_insolvency_name": {
+            "value": null
+        },
+        "operations_getannualreportmetadatausingget_name": {
+            "value": null
+        },
+        "operations_defaultmethodsync_name_5": {
+            "value": null
+        },
+        "operations_get_all_legal_entity_mass_medias_name": {
+            "value": null
+        },
+        "operations_getpublicdocumentcontentusingget_name": {
+            "value": null
+        },
+        "templates_QuotaLimitApproachingDeveloperNotificationMessage_name": {
+            "value": null
+        },
+        "tags_commercialpledgelistsync_name": {
+            "value": null
+        },
+        "operations_getpublicdocumentmetadatausingget_name": {
+            "value": null
+        },
+        "operations_defaultmethodsync_name_6": {
+            "value": null
+        },
+        "operations_getpubliclventitydocumentsusingget_name": {
+            "value": null
+        },
+        "policies_policy_name_3": {
+            "value": null
+        },
+        "operations_defaultmethodsync_name_7": {
+            "value": null
+        },
+        "operations_get_list_of_insolvency_practitioners_name": {
+            "value": null
+        },
+        "operations_getrestricteddocumentcontentusingget_name": {
+            "value": null
+        },
+        "notifications_QuotaLimitApproachingPublisherNotificationMessage_name": {
+            "value": null
+        },
+        "tags_restricteddocumentlistsync_name": {
+            "value": null
+        },
+        "operations_getrestricteddocumentmetadatausingget_name": {
+            "value": null
+        },
+        "operations_defaultmethodsync_name_8": {
+            "value": null
+        },
+        "tags_spoualpropertyrelationsync_name": {
+            "value": null
+        },
+        "policies_policy_name_4": {
+            "value": null
+        },
+        "operations_defaultmethodsync_name_9": {
+            "value": null
+        },
+        "operations_get_all_legal_entity_commercial_pledges_name": {
+            "value": null
+        },
+        "operations_getlegalentityandinstitutionlistusingget_name": {
+            "value": null
+        },
+        "operations_getLegalEntityAndInstitutionListUsingGET_1_name": {
+            "value": null
+        },
+        "tags_annualreportsync_name": {
+            "value": null
+        },
+        "operations_get_all_commercial_pledge_restricted_documents_name": {
+            "value": null
+        },
+        "policies_policy_name_5": {
+            "value": null
+        },
+        "tags_spousalpropertyrelationlistsync_name": {
+            "value": null
+        },
+        "operations_getpersonrepresentedsignedlegalentitiesusingget_name": {
+            "value": null
+        },
+        "operations_get_all_legal_entity_public_private_partnerships_name": {
+            "value": null
+        },
+        "tags_document_controller_name_1": {
+            "value": null
+        },
+        "tags_insolvencylistsync_name": {
+            "value": null
+        },
+        "operations_get_historical_insolvency_practitioner_information_name": {
+            "value": null
+        },
+        "operations_get_historical_information_of_the_mass_media_entity_name": {
+            "value": null
+        },
+        "tags_document_controller_name_2": {
+            "value": null
+        },
+        "operations_get_all_restricted_documents_of_the_mass_media_entity_name": {
+            "value": null
+        },
+        "operations_get_list_all_commercial_pledges_of_the_natural_person_name": {
+            "value": null
+        },
+        "tags_document_controller_name_3": {
+            "value": null
+        },
+        "tags_commercialpledgesync_name_1": {
+            "value": null
+        },
+        "operations_get_all_publicly_available_documents_of_the_mass_media_name": {
+            "value": null
+        },
+        "tags_document_controller_name_4": {
+            "value": null
+        },
+        "tags_document_controller_name_5": {
+            "value": null
+        },
+        "tags_document_controller_name_6": {
+            "value": null
+        },
+        "operations_getSingleInstitutionOrLegalEntityDetailsByNumberUsingGET_name": {
+            "value": null
+        },
+        "tags_document_controller_name_7": {
+            "value": null
+        },
+        "tags_document_controller_name_8": {
+            "value": null
+        },
+        "operations_get_insolvency_or_legal_protection_proceedings_information_name": {
+            "value": null
+        },
+        "operations_getSingleInstitutionOrLegalEntityDetailsByNumberUsingGET_1_name": {
+            "value": null
+        },
+        "tags_document_controller_name_9": {
+            "value": null
+        },
+        "operations_get_list_all_publicly_available_documents_of_the_proceeding_name": {
+            "value": null
+        },
+        "tags_document_controller_name_10": {
+            "value": null
+        },
+        "tags_document_controller_name_11": {
+            "value": null
+        },
+        "tags_commercialpledgelistsync_name_1": {
+            "value": null
+        },
+        "tags_document_controller_name_12": {
+            "value": null
+        },
+        "policies_policy_name_6": {
+            "value": null
+        },
+        "tags_restricteddocumentlistsync_name_1": {
+            "value": null
+        },
+        "tags_spoualpropertyrelationsync_name_1": {
+            "value": null
+        },
+        "operations_getsingleinstitutionorlegalentitydetailswithhistorybynumberusingget_name": {
+            "value": null
+        },
+        "operations_get_list_all_legal_entities_where_the_person_is_or_has_been_involved_name": {
+            "value": null
+        },
+        "operations_getSingleInstitutionOrLegalEntityDetailsWithHistoryByNumberUsingGET_1_name": {
+            "value": null
+        },
+        "tags_legal_entity_controller_name_1": {
+            "value": null
+        },
+        "operations_get_list_all_documents_of_the_proceeding_that_are_not_publicly_available_name": {
+            "value": null
+        },
+        "tags_insolvencypractitionerlistsync_name": {
+            "value": null
+        },
+        "operations_get_list_all_insolvency_and_out_of_court_proceedings_of_the_natural_person_name": {
+            "value": null
+        },
+        "tags_spousalpropertyrelationlistsync_name_1": {
+            "value": null
+        },
+        "tags_legal_entity_controller_name_2": {
+            "value": null
+        },
+        "operations_get_list_all_spousal_property_relations_where_the_person_is_or_has_been_involved_name": {
+            "value": null
+        },
+        "tags_legal_entity_for_reusers_controller_name_1": {
+            "value": null
+        },
+        "tags_legal_entity_controller_name_3": {
+            "value": null
+        },
+        "tags_legal_entity_controller_name_4": {
+            "value": null
+        },
+        "tags_legal_entity_for_reusers_controller_name_2": {
+            "value": null
+        },
+        "tags_legal_entity_for_reusers_controller_name_3": {
+            "value": null
+        }
+    }
+}
